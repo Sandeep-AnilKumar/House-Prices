@@ -17,8 +17,6 @@ for i in range(1, length):
 
 X = sale_prices
 Y = list(i for i in range(0, len(sale_prices)))
-print len(X)
-print len(Y)
 
 plt.hist(X, bins=20)
 plt.xlabel("sale_prices")
