@@ -43,8 +43,6 @@ start_time = time.time()
 test_df = pd.read_csv('test.csv')
 test_data_ids = list(test_df['Id'])
 
-length = len(test_df)
-
 col = list(c for c in test_df.columns)
 col = col[1:]
 
